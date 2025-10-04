@@ -1,11 +1,12 @@
 CC = gcc
 FLAGS = -Wall -Werror -Wextra
-UTILS = utils/*
+SRC = src/*
+BUILD = build/
 
 all: clean cat
 
-cat: cat.c $(UTILS)
-	$(CC) $(FLAGS) $^ -o cat
+cat: $(SRC)
+	$(CC) $(FLAGS) $^ -o $(BUILD)cat
 
 clean: 
-	rm -f cat
+	rm -f $(BUILD)cat

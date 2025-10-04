@@ -1,5 +1,4 @@
-#include "headers/file_process.h"
-#include "headers/options.h"
+#include "../include/cat.h"
 
 int main(int argc, char** argv) {
   int options[SIZE] = {0};

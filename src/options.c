@@ -1,4 +1,4 @@
-#include "../headers/options.h"
+#include "../include/options.h"
 
 int resize_file_names(int** file_names_indecies, int* file_names_cap) {
   int temp_cap = (*file_names_cap) * 2;

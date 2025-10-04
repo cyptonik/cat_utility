@@ -1,4 +1,4 @@
-#include "../headers/file_process.h"
+#include "../include/file_process.h"
 
 void process_files(int file_names_length, int* file_names_indecies, char** argv,
                    int options[]) {
